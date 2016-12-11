@@ -465,6 +465,30 @@ namespace ConsoleApplication1
                 Console.WriteLine("Kontynent: {0}", WlochyKult.kontynent);
                 Console.WriteLine("Krotki opis: {0}", WlochyKult.opis);
             }
+            if (punkty[8] == max)
+            {
+                Console.WriteLine(KarpaczRek.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", KarpaczRek.nazwa);
+                Console.WriteLine("Kraj: {0}", KarpaczRek.kraj);
+                Console.WriteLine("Kontynent: {0}", KarpaczRek.kontynent);
+                Console.WriteLine("Krotki opis: {0}", KarpaczRek.opis);
+            }
+            if (punkty[9] == max)
+            {
+                Console.WriteLine(LodzRek.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", LodzRek.nazwa);
+                Console.WriteLine("Kraj: {0}", LodzRek.kraj);
+                Console.WriteLine("Kontynent: {0}", LodzRek.kontynent);
+                Console.WriteLine("Krotki opis: {0}", LodzRek.opis);
+            }
+            if (punkty[10] == max)
+            {
+                Console.WriteLine(MazuryRek.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", MazuryRek.nazwa);
+                Console.WriteLine("Kraj: {0}", MazuryRek.kraj);
+                Console.WriteLine("Kontynent: {0}", MazuryRek.kontynent);
+                Console.WriteLine("Krotki opis: {0}", MazuryRek.opis);
+            }
         }
 
     }
