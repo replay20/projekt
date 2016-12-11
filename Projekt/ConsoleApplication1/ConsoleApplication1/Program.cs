@@ -441,6 +441,30 @@ namespace ConsoleApplication1
                 Console.WriteLine("Kontynent: {0}", USAKult.kontynent);
                 Console.WriteLine("Krotki opis: {0}", USAKult.opis);
             }
+            if (punkty[5] == max)
+            {
+                Console.WriteLine(ChinyKult.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", ChinyKult.nazwa);
+                Console.WriteLine("Kraj: {0}", ChinyKult.kraj);
+                Console.WriteLine("Kontynent: {0}", ChinyKult.kontynent);
+                Console.WriteLine("Krotki opis: {0}", ChinyKult.opis);
+            }
+            if (punkty[6] == max)
+            {
+                Console.WriteLine(WenezuelaKult.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", WenezuelaKult.nazwa);
+                Console.WriteLine("Kraj: {0}", WenezuelaKult.kraj);
+                Console.WriteLine("Kontynent: {0}", WenezuelaKult.kontynent);
+                Console.WriteLine("Krotki opis: {0}", WenezuelaKult.opis);
+            }
+            if (punkty[7] == max)
+            {
+                Console.WriteLine(WlochyKult.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", WlochyKult.nazwa);
+                Console.WriteLine("Kraj: {0}", WlochyKult.kraj);
+                Console.WriteLine("Kontynent: {0}", WlochyKult.kontynent);
+                Console.WriteLine("Krotki opis: {0}", WlochyKult.opis);
+            }
         }
 
     }
