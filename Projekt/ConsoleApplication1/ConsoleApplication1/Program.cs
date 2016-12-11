@@ -308,6 +308,7 @@ namespace ConsoleApplication1
                     i = false;
             }
             while (i == true);
+            i = true;
             }
     }
 }
