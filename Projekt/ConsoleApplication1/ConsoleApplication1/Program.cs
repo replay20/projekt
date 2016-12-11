@@ -259,7 +259,50 @@ namespace ConsoleApplication1
                     WarszawaRek.ilosc_punktow = WarszawaRek.ilosc_punktow - 1;
                     LodzRek.ilosc_punktow = LodzRek.ilosc_punktow - 1;
                     i = false;
+                    do
+                    {
+                        Console.WriteLine("Jaki kontynent cie interesuje?\n1) Europa\n2) Ameryka pln\n3) Ameryka pld\n4) Afryka\n5) Azja\n6) Bez znaczenia");
+                        odp = (Console.ReadLine());
+                        if (odp == "1")
+                        {
+                            WlochyKult.ilosc_punktow = WlochyKult.ilosc_punktow + 1;
+                            FiordyNorw.ilosc_punktow = FiordyNorw.ilosc_punktow + 1;
+                            HiszpaniaSport.ilosc_punktow = HiszpaniaSport.ilosc_punktow + 1;
+                            j = false;
+                        }
+                        if (odp == "2")
+                        {
+                            USAKult.ilosc_punktow = USAKult.ilosc_punktow + 1;
+                            USASport.ilosc_punktow = USASport.ilosc_punktow + 1;
+                            j = false;
+                        }
+                        if (odp == "3")
+                        {
+                            WenezuelaKult.ilosc_punktow = WenezuelaKult.ilosc_punktow + 1;
+                            PeruSport.ilosc_punktow = PeruSport.ilosc_punktow + 1;
+                            j = false;
+                        }
+                        if (odp == "4")
+                        {
+                            EgiptKult.ilosc_punktow = EgiptKult.ilosc_punktow + 1;
+                            AlgieriaSport.ilosc_punktow = AlgieriaSport.ilosc_punktow + 1;
+                            j = false;
+                        }
+                        if (odp == "5")
+                        {
+                            ChinyKult.ilosc_punktow = ChinyKult.ilosc_punktow + 1;
+                            JaponiaSport.ilosc_punktow = JaponiaSport.ilosc_punktow + 1;
+                            j = false;
+                        }
+                        else
+                            if (odp == "6")
+                            j = false;
+                    }
+                    while (j == true);
+                    j = true;
                 }
+            
+            
                 else
                     if (odp == "3")
                     i = false;
