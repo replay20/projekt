@@ -529,6 +529,39 @@ namespace ConsoleApplication1
                 Console.WriteLine("Kontynent: {0}", HiszpaniaSport.kontynent);
                 Console.WriteLine("Krotki opis: {0}", HiszpaniaSport.opis);
             }
+            if (punkty[16] == max)
+            {
+                Console.WriteLine(JaponiaSport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", JaponiaSport.nazwa);
+                Console.WriteLine("Kraj: {0}", JaponiaSport.kraj);
+                Console.WriteLine("Kontynent: {0}", JaponiaSport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", JaponiaSport.opis);
+            }
+            if (punkty[17] == max)
+            {
+                Console.WriteLine(NowaZelandiaSport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", NowaZelandiaSport.nazwa);
+                Console.WriteLine("Kraj: {0}", NowaZelandiaSport.kraj);
+                Console.WriteLine("Kontynent: {0}", NowaZelandiaSport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", NowaZelandiaSport.opis);
+            }
+            if (punkty[18] == max)
+            {
+                Console.WriteLine(PeruSport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", PeruSport.nazwa);
+                Console.WriteLine("Kraj: {0}", PeruSport.kraj);
+                Console.WriteLine("Kontynent: {0}", PeruSport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", PeruSport.opis);
+            }
+            if (punkty[19] == max)
+            {
+                Console.WriteLine(USASport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", USASport.nazwa);
+                Console.WriteLine("Kraj: {0}", USASport.kraj);
+                Console.WriteLine("Kontynent: {0}", USASport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", USASport.opis);
+            }
+            Console.ReadKey();
         }
 
     }
