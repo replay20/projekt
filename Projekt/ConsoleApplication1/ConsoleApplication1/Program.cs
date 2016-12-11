@@ -114,10 +114,9 @@ namespace ConsoleApplication1
             LodzRek.kontynent = "Europa";
             LodzRek.opis = "Łódź przeistacza się z typowo robotniczego ośrodka w miasto kultury i inspiracji. Powstają nowe muzea, galerie sztuki, wielka rewitalizacja miasta. Przykładem zachodzących zmian jest rozkwitające centrum Manufaktura i odbywający się w Łodzi coroczny festiwal designu. Odwiedzimy między innymi Manufakturę, Muzeum Fabryki oraz Muzeum Sztuki Współczesnej! ";
 
-            bool i, j;
+            bool i;
             string odp;
             i = true;
-            j = true;
         }
     }
 }
