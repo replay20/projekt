@@ -417,6 +417,30 @@ namespace ConsoleApplication1
                 Console.WriteLine("Kontynent: {0}", OsrodekWarch.kontynent);
                 Console.WriteLine("Krotki opis: {0}", OsrodekWarch.opis);
             }
+            if (punkty[2] == max)
+            {
+                Console.WriteLine(EgiptKult.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", EgiptKult.nazwa);
+                Console.WriteLine("Kraj: {0}", EgiptKult.kraj);
+                Console.WriteLine("Kontynent: {0}", EgiptKult.kontynent);
+                Console.WriteLine("Krotki opis: {0}", EgiptKult.opis);
+            }
+            if (punkty[3] == max)
+            {
+                Console.WriteLine(FiordyNorw.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", FiordyNorw.nazwa);
+                Console.WriteLine("Kraj: {0}", FiordyNorw.kraj);
+                Console.WriteLine("Kontynent: {0}", FiordyNorw.kontynent);
+                Console.WriteLine("Krotki opis: {0}", FiordyNorw.opis);
+            }
+            if (punkty[4] == max)
+            {
+                Console.WriteLine(USAKult.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", USAKult.nazwa);
+                Console.WriteLine("Kraj: {0}", USAKult.kraj);
+                Console.WriteLine("Kontynent: {0}", USAKult.kontynent);
+                Console.WriteLine("Krotki opis: {0}", USAKult.opis);
+            }
         }
 
     }
