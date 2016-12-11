@@ -382,6 +382,25 @@ namespace ConsoleApplication1
             punkty[17] = NowaZelandiaSport.ilosc_punktow;
             punkty[18] = PeruSport.ilosc_punktow;
             punkty[19] = USASport.ilosc_punktow;
+            int l, max = 0;
+            for (l = 0; l <= 19; l++)
+            {
+                if (l == 0)
+                {
+                    max = punkty[l];
+                }
+                else
+                {
+                    if (max < punkty[l])
+                    {
+                        max = punkty[l];
+                    }
+                    else
+                    {
+
+                    }
+                }
+            }
         }
 
     }
