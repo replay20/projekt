@@ -401,6 +401,22 @@ namespace ConsoleApplication1
                     }
                 }
             }
+            if (punkty[0] == max)
+            {
+                Console.WriteLine(Krakow.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", Krakow.nazwa);
+                Console.WriteLine("Kraj: {0}", Krakow.kraj);
+                Console.WriteLine("Kontynent: {0}", Krakow.kontynent);
+                Console.WriteLine("Krotki opis: {0}", Krakow.opis);
+            }
+            if (punkty[1] == max)
+            {
+                Console.WriteLine(OsrodekWarch.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", OsrodekWarch.nazwa);
+                Console.WriteLine("Kraj: {0}", OsrodekWarch.kraj);
+                Console.WriteLine("Kontynent: {0}", OsrodekWarch.kontynent);
+                Console.WriteLine("Krotki opis: {0}", OsrodekWarch.opis);
+            }
         }
 
     }
