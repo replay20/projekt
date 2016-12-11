@@ -309,6 +309,27 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            do
+            {
+                Console.WriteLine("Wolisz wysokie, niskie czy umiarkowane temperatury?\n1) Wysokie\n2) Umiarkowane\n3) Niskie\n4) Bez znaczenia");
+                odp = (Console.ReadLine());
+                if (odp == "1")
+                {
+                    EgiptKult.ilosc_punktow = EgiptKult.ilosc_punktow + 1;
+                    WlochyKult.ilosc_punktow = WlochyKult.ilosc_punktow + 1;
+                    WenezuelaKult.ilosc_punktow = WenezuelaKult.ilosc_punktow + 1;
+                    FiordyNorw.ilosc_punktow = FiordyNorw.ilosc_punktow - 1;
+                    AlgieriaSport.ilosc_punktow = AlgieriaSport.ilosc_punktow + 1;
+                    PeruSport.ilosc_punktow = PeruSport.ilosc_punktow + 1;
+                    HiszpaniaSport.ilosc_punktow = HiszpaniaSport.ilosc_punktow + 1;
+                    NowaZelandiaSport.ilosc_punktow = NowaZelandiaSport.ilosc_punktow + 1;
+                    i = false;
+                }
+
             }
+            while (i == true);
+            i = true;
+        }
+
     }
 }
