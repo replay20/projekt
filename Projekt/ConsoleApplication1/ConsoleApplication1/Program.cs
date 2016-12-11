@@ -114,9 +114,10 @@ namespace ConsoleApplication1
             LodzRek.kontynent = "Europa";
             LodzRek.opis = "Łódź przeistacza się z typowo robotniczego ośrodka w miasto kultury i inspiracji. Powstają nowe muzea, galerie sztuki, wielka rewitalizacja miasta. Przykładem zachodzących zmian jest rozkwitające centrum Manufaktura i odbywający się w Łodzi coroczny festiwal designu. Odwiedzimy między innymi Manufakturę, Muzeum Fabryki oraz Muzeum Sztuki Współczesnej! ";
 
-            bool i;
+            bool i,j;
             string odp;
             i = true;
+            j = true;
             Console.WriteLine("Witaj w programie, ktory podpowie ci, gdzie mozesz wybrac sie na wypoczynek (moze byc kilka miejsc).\n");
             Console.WriteLine("Odpowiedz na kilka pytan, ktore zada Ci program. Zeby odpowiedziec na pytania wpisz liczbe, ktora symbolizuje odpowiedz.");
             do
@@ -139,11 +140,38 @@ namespace ConsoleApplication1
                     KarpaczRek.ilosc_punktow = KarpaczRek.ilosc_punktow + 1;
                     WarszawaRek.ilosc_punktow = WarszawaRek.ilosc_punktow + 1;
                     LodzRek.ilosc_punktow = LodzRek.ilosc_punktow + 1;
+                
+                do
+                {
+                    Console.WriteLine("Czy chcesz jechać w góry czy na plażę?\n1) W gory\n2) Na plaze\n3) Bez znaczenia");
+                    odp = (Console.ReadLine());
+                    if (odp == "1")
+                    {
+                        FiordyNorw.ilosc_punktow = FiordyNorw.ilosc_punktow + 1;
+                        WieliczkaRek.ilosc_punktow = WieliczkaRek.ilosc_punktow + 1;
+                        KarpaczRek.ilosc_punktow = KarpaczRek.ilosc_punktow + 1;
+
+                        j = false;
+                    }
+
+                    if (odp == "2")
+                    {
+
+                        OsrodekWarch.ilosc_punktow = OsrodekWarch.ilosc_punktow + 1;
+
+                        j = false;
+                    }
+                    else
+                        if (odp == "3")
+                        j = false;
+
+                }
+                while (j == true);
+                j = true;
                 }
                 i = false;
-            
-               
-                    if (odp == "2")
+
+                if (odp == "2")
                 {
                     Krakow.ilosc_punktow = Krakow.ilosc_punktow + 1;
                     OsrodekWarch.ilosc_punktow = OsrodekWarch.ilosc_punktow - 1;
