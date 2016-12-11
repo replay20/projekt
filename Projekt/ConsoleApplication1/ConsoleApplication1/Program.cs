@@ -117,6 +117,8 @@ namespace ConsoleApplication1
             bool i;
             string odp;
             i = true;
+            Console.WriteLine("Witaj w programie, ktory podpowie ci, gdzie mozesz wybrac sie na wypoczynek (moze byc kilka miejsc).\n");
+            Console.WriteLine("Odpowiedz na kilka pytan, ktore zada Ci program. Zeby odpowiedziec na pytania wpisz liczbe, ktora symbolizuje odpowiedz.");
         }
     }
 }

@@ -7,3 +7,6 @@ C:\Users\Denis\Desktop\Projekt\ConsoleApplication1\ConsoleApplication1\obj\Debug
 C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Denis\Desktop\git\Projekt\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
