@@ -513,6 +513,22 @@ namespace ConsoleApplication1
                 Console.WriteLine("Kontynent: {0}", WielkopolskaRek.kontynent);
                 Console.WriteLine("Krotki opis: {0}", WielkopolskaRek.opis);
             }
+            if (punkty[14] == max)
+            {
+                Console.WriteLine(AlgieriaSport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", AlgieriaSport.nazwa);
+                Console.WriteLine("Kraj: {0}", AlgieriaSport.kraj);
+                Console.WriteLine("Kontynent: {0}", AlgieriaSport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", AlgieriaSport.opis);
+            }
+            if (punkty[15] == max)
+            {
+                Console.WriteLine(HiszpaniaSport.ilosc_punktow);
+                Console.WriteLine("Najlepsza wycieczka dla ciebie to: {0}", HiszpaniaSport.nazwa);
+                Console.WriteLine("Kraj: {0}", HiszpaniaSport.kraj);
+                Console.WriteLine("Kontynent: {0}", HiszpaniaSport.kontynent);
+                Console.WriteLine("Krotki opis: {0}", HiszpaniaSport.opis);
+            }
         }
 
     }
