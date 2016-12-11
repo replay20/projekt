@@ -360,6 +360,28 @@ namespace ConsoleApplication1
             }
             while (i == true);
             i = true;
+            int[] punkty;
+            punkty = new int[20];
+            punkty[0] = Krakow.ilosc_punktow;
+            punkty[1] = OsrodekWarch.ilosc_punktow;
+            punkty[2] = EgiptKult.ilosc_punktow;
+            punkty[3] = FiordyNorw.ilosc_punktow;
+            punkty[4] = USAKult.ilosc_punktow;
+            punkty[5] = ChinyKult.ilosc_punktow;
+            punkty[6] = WenezuelaKult.ilosc_punktow;
+            punkty[7] = WlochyKult.ilosc_punktow;
+            punkty[8] = KarpaczRek.ilosc_punktow;
+            punkty[9] = LodzRek.ilosc_punktow;
+            punkty[10] = MazuryRek.ilosc_punktow;
+            punkty[11] = WarszawaRek.ilosc_punktow;
+            punkty[12] = WieliczkaRek.ilosc_punktow;
+            punkty[13] = WielkopolskaRek.ilosc_punktow;
+            punkty[14] = AlgieriaSport.ilosc_punktow;
+            punkty[15] = HiszpaniaSport.ilosc_punktow;
+            punkty[16] = JaponiaSport.ilosc_punktow;
+            punkty[17] = NowaZelandiaSport.ilosc_punktow;
+            punkty[18] = PeruSport.ilosc_punktow;
+            punkty[19] = USASport.ilosc_punktow;
         }
 
     }
