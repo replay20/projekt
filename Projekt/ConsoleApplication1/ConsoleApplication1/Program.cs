@@ -119,6 +119,67 @@ namespace ConsoleApplication1
             i = true;
             Console.WriteLine("Witaj w programie, ktory podpowie ci, gdzie mozesz wybrac sie na wypoczynek (moze byc kilka miejsc).\n");
             Console.WriteLine("Odpowiedz na kilka pytan, ktore zada Ci program. Zeby odpowiedziec na pytania wpisz liczbe, ktora symbolizuje odpowiedz.");
+            do
+            {
+                Console.WriteLine("Co preferujesz?\n1) Relaks\n2) Zwiedzanie\n3 Uprawianie Sportu\n4) Bez znaczenia");
+                odp = (Console.ReadLine());
+                if (odp == "1")
+                {
+                    Krakow.ilosc_punktow = Krakow.ilosc_punktow - 1;
+                    OsrodekWarch.ilosc_punktow = OsrodekWarch.ilosc_punktow + 1;
+                    EgiptKult.ilosc_punktow = EgiptKult.ilosc_punktow - 1;
+                    ChinyKult.ilosc_punktow = ChinyKult.ilosc_punktow - 1;
+                    WlochyKult.ilosc_punktow = WlochyKult.ilosc_punktow - 1;
+                    USAKult.ilosc_punktow = USAKult.ilosc_punktow - 1;
+                    WenezuelaKult.ilosc_punktow = WenezuelaKult.ilosc_punktow - 1;
+                    FiordyNorw.ilosc_punktow = FiordyNorw.ilosc_punktow + 1;
+                    MazuryRek.ilosc_punktow = MazuryRek.ilosc_punktow + 1;
+                    WielkopolskaRek.ilosc_punktow = WielkopolskaRek.ilosc_punktow + 1;
+                    WieliczkaRek.ilosc_punktow = WieliczkaRek.ilosc_punktow + 1;
+                    KarpaczRek.ilosc_punktow = KarpaczRek.ilosc_punktow + 1;
+                    WarszawaRek.ilosc_punktow = WarszawaRek.ilosc_punktow + 1;
+                    LodzRek.ilosc_punktow = LodzRek.ilosc_punktow + 1;
+                }
+                i = false;
+            
+               
+                    if (odp == "2")
+                {
+                    Krakow.ilosc_punktow = Krakow.ilosc_punktow + 1;
+                    OsrodekWarch.ilosc_punktow = OsrodekWarch.ilosc_punktow - 1;
+                    EgiptKult.ilosc_punktow = EgiptKult.ilosc_punktow + 1;
+                    ChinyKult.ilosc_punktow = ChinyKult.ilosc_punktow + 1;
+                    WlochyKult.ilosc_punktow = WlochyKult.ilosc_punktow + 1;
+                    USAKult.ilosc_punktow = USAKult.ilosc_punktow + 1;
+                    WenezuelaKult.ilosc_punktow = WenezuelaKult.ilosc_punktow + 1;
+                    FiordyNorw.ilosc_punktow = FiordyNorw.ilosc_punktow - 1;
+                    MazuryRek.ilosc_punktow = MazuryRek.ilosc_punktow - 1;
+                    WielkopolskaRek.ilosc_punktow = WielkopolskaRek.ilosc_punktow - 1;
+                    WieliczkaRek.ilosc_punktow = WieliczkaRek.ilosc_punktow - 1;
+                    KarpaczRek.ilosc_punktow = KarpaczRek.ilosc_punktow - 1;
+                    WarszawaRek.ilosc_punktow = WarszawaRek.ilosc_punktow - 1;
+                    LodzRek.ilosc_punktow = LodzRek.ilosc_punktow - 1;
+                    i = false;
+                }
+                if (odp == "3")
+                {
+
+                    AlgieriaSport.ilosc_punktow = AlgieriaSport.ilosc_punktow + 1;
+                    JaponiaSport.ilosc_punktow = JaponiaSport.ilosc_punktow + 1;
+                    USASport.ilosc_punktow = USASport.ilosc_punktow + 1;
+                    AlgieriaSport.ilosc_punktow = AlgieriaSport.ilosc_punktow + 1;
+                    PeruSport.ilosc_punktow = PeruSport.ilosc_punktow + 1;
+                    HiszpaniaSport.ilosc_punktow = HiszpaniaSport.ilosc_punktow + 1;
+                    NowaZelandiaSport.ilosc_punktow = NowaZelandiaSport.ilosc_punktow + 1;
+                    i = false;
+                }
+                else
+                    if (odp == "4")
+                    i = false;
+            } while (i == true);
+
+
+            i = true;
         }
     }
 }

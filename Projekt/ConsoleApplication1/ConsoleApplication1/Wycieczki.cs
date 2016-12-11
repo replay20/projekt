@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     class Wycieczki
     {
         public string nazwa = "brak nazwy";
-        public int ilosc_punktow;
+        public int ilosc_punktow=0;
         public string kraj = "brak danych";
         public string kontynent = "brak danych";
         public string opis = "brak opisu";
